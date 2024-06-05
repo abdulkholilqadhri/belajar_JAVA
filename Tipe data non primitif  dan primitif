@@ -1,0 +1,64 @@
+package javaapplication115;
+
+public class JavaApplication115 {
+
+    public static void main(String[] args) {
+        
+        //Tipe data non primitif
+        System.out.println("Tipe data non primitif");
+        byte a = Byte.MAX_VALUE;
+        System.out.println("\n=== byte value ===");
+        System.out.println("Maximal : "+a);
+        a = Byte.MIN_VALUE;
+        System.out.println("Minimal : "+a);
+        
+        short b = Short.MAX_VALUE;
+        System.out.println("\n=== short value ===");
+        System.out.println("Maximal : "+b);
+        b = Short.MIN_VALUE;
+        System.out.println("Minimal : "+b);
+        
+        int c = Integer.MAX_VALUE;
+        System.out.println("\n=== int value ===");
+        System.out.println("Maximal : "+c);
+        c = Integer.MIN_VALUE;
+        System.out.println("Minimal : "+c);
+        
+        long d = Long.MAX_VALUE;
+        System.out.println("\n=== long value ===");
+        System.out.println("Maximal : "+d);
+        d = Long.MIN_VALUE;
+        System.out.println("Minimal : "+d);
+        
+        float e = Float.MAX_VALUE;
+        System.out.println("\n=== float value ===");
+        System.out.println("Maximal : "+e);
+        e = Float.MIN_VALUE;
+        System.out.println("Minimal : "+e);
+        
+        double f = Long.MAX_VALUE;
+        System.out.println("\n=== double value ===");
+        System.out.println("Maximal : "+f);
+        f = Double.MIN_VALUE;
+        System.out.println("Minimal : "+f);
+        
+        char g = Character.MAX_VALUE;
+        System.out.println("\n=== char value ===");
+        System.out.println("Maximal : "+g);
+        g = Character.MIN_VALUE;
+        System.out.println("Minimal : "+g);
+        
+        boolean h = Boolean.FALSE;
+        System.out.println("\n=== boolean value ===");
+        System.out.println("Value boolean : "+h);
+        h = Boolean.TRUE;
+        System.out.println("Value boolean : "+h);
+        
+        //Tipe data primitif
+        System.out.println("\nTipe data primitif");
+        String i = "Dapat menampung huruf,karakter,angka,kalimat dll";
+        System.out.println("\nString : "+i);
+        
+    }
+    
+}
