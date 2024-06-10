@@ -1,0 +1,15 @@
+package belajar1;
+
+public class Belajar1 {
+
+    public static void main(String[] args) {
+        System.out.println("Hello world"); // baris ke - 1
+        System.out.println("My name is Abdul kholil qadhri"); // baris ke - 2
+        System.out.println("and im 22 years old ");// baris ke - 3
+        System.out.print("dah tuakan"); //  baris ke - 4
+        System.out.printf(" Tahun ini mau masuk umur %d tahun",23);//di samping baris ke - 4 dan ini adalah print format
+        System.out.println("dah tertinggal sih dari temen-temen yang lain Tapi harus semangat belajarnya");//n masih di baris ke - 4
+        System.out.println("biar sukses dan bisa ngebahagiain ayah ibu okyyyy"); // baris ke - 5
+    }
+    
+}
