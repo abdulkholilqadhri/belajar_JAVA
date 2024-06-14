@@ -1,0 +1,24 @@
+package javaapplication118;
+
+public class JavaApplication118 {
+
+    public static void main(String[] args) {
+        System.out.println("===Operasi Aritmatika===\n");
+        byte angka = 10;
+        byte hasil = (byte) (angka + 5);
+        System.out.println("Penjumlahan : " + angka + " + 5 = " + hasil);
+
+        hasil = (byte) (angka - 5);
+        System.out.println("Penjumlahan : " + angka + " - 5 = " + hasil);
+
+        hasil = (byte) (angka * 5);
+        System.out.println("Penjumlahan : " + angka + " x 5 = " + hasil);
+
+        hasil = (byte) (angka / 5);
+        System.out.println("Penjumlahan : " + angka + " : 5 = " + hasil);
+
+        hasil = (byte) (angka % 3);
+        System.out.println("Penjumlahan : " + angka + " % 3 = " + hasil);
+    }
+    
+}
